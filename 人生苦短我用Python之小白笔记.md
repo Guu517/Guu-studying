@@ -93,18 +93,17 @@
    ```
    >>> 17 / 3  # classic division returns a float
    5.666666666666667
-   >>>
    >>> 17 // 3  # floor division discards the fractional part
    5
    ```
-
+   
    Python 用 `**` 运算符计算乘方：
-
+   
    ```
-   >>> 5 ** 2  # 5 squared
+   >>>5 ** 2  # 5 squared
    25
    ```
-
+   
 2. `%`取模和`//`取整
 
    ```
@@ -213,8 +212,8 @@ Letters = ["a","b","c","d","e"]
     字典元素查找：
     
     ```
-    cart = {"咖啡":1,"辣条":2,"披萨":3}
-    print(cart["咖啡"])
+    >>>cart = {"咖啡":1,"辣条":2,"披萨":3}
+    >>>print(cart["咖啡"])
     1
     ```
     
@@ -222,3 +221,4 @@ Letters = ["a","b","c","d","e"]
     字典的元素删除: `pop`
     
     `cart.pop("披萨")`
+
